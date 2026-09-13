@@ -20,7 +20,7 @@ public class AiConfig {
                 .ollamaApi(ollamaApi)
                 .options(
                         OllamaChatOptions.builder()
-                                .model("qwen3:8b")
+                                .model("${llm-model-you-used}")
                                 .build()
                 )
                 .build();
